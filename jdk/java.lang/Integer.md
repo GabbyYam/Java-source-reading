@@ -22,10 +22,10 @@ public final class Integer extends Number implements Comparable<Integer>
 //int类型value用来存值
 private final int value;
 
-//最大值
+//最大值=2^31-1
 @Native public static final int   MIN_VALUE = 0x80000000;
 
-//最小值
+//最小值=-(2^31-1)
 @Native public static final int   MAX_VALUE = 0x7fffffff;
 
 //二进制位数
